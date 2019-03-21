@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/scss/index.css">
+    <title>Gallery</title>
+
+    <style>
+        header {
+            background: url(../styles/images/mine.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-blend-mode: color-burn;
+            width: 100%;
+            height: 10vh;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            padding-top: 10px;
+            margin: 0;
+            text-align: center;
+            color: orangered;
+            font-family: cursive;
+        }
+
+        main {
+            background: azure;
+            position: relative;
+            left: 140px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: 
+            "t1 t2"
+            "t3 t4"
+            "t5 t5";
+            width: 50%;
+            padding: 30px;
+            grid-gap: 40px;
+            
+        }
+        
+        #t1 {
+            grid-area: t1;
+            position: relative;
+            width: 200px;
+            box-shadow: 4px 4px rgb(156, 155, 155),
+            7px 6px black;
+        }
+        #t2 {
+            grid-area: t2;
+            width: 200px;
+            box-shadow: 4px 4px rgb(156, 155, 155),
+            7px 6px black;
+        }
+        #t3 {
+            grid-area: t3;
+            width: 200px;
+            box-shadow: 4px 4px rgb(156, 155, 155),
+            7px 6px black;
+        }
+        #t4 {
+            grid-area: t4;
+            width: 200px;
+            box-shadow: 4px 4px rgb(156, 155, 155),
+            7px 6px black;
+        }
+        #t5 {
+            grid-area: t5;
+            width: 350px;
+            box-shadow: 4px 4px rgb(156, 155, 155),
+            7px 6px black;
+        }
+        img {
+            
+        }
+
+        footer {
+            height: 5vh;
+            width: 100%;
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 10px;
+            font-family: cursive;
+        }
+        .designer {
+            color: orangered;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="head-wrap">
+        <h1 class="gallery-text">
+            GALLERY
+        </h1>
+    </header>
+
+    <main class="image-wrap">
+        <img src="../styles/images/t1.jpg" id="t1" alt="">
+        <img src="../styles/images/t2.jpg" id="t2" alt="">
+        <img src="../styles/images/t3.jpg" id="t3" alt="">
+        <img src="../styles/images/t4.jpg" id="t4" alt="">
+        <img src="../styles/images/10.jpg" id="t5" alt="">
+    </main>
+
+    <footer class="ft-bottom">
+            &copy; <span class="rights">2019 Venue. All rights reserved<span style="text-decoration:none; font-weight: 100;"> | </span>Desinged by </span><span class="designer">Yhuakim</span>
+        </i>       
+    </footer>
+</body>
+</html>

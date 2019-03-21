@@ -1,0 +1,561 @@
+
+//widescreens
+@include mediaXl {    
+
+}
+
+//Desktops & Laptops
+@include mediaLg { 
+    .heading {
+        width: 100%;
+
+        nav {
+            //font-size: 0.8em;
+
+            ul {
+                padding: 0;
+                margin: 0;
+                text-align-last: center;
+
+                .home {
+                    padding-left: 0;
+                    margin: 0;
+                }
+            }
+        }
+
+        .viva {
+
+            .read-more {
+                position: relative;
+                right: 100px;
+                padding: 10px 0;
+                
+
+            }
+
+            .read-more-text {
+                padding: 10px 0;
+                margin: 0;
+                height: 200px;
+
+            }
+
+            .btn-read {
+                position: relative;
+                left:53%
+            }
+        }
+        //height: 50vh;
+        //background-attachment: fixed;
+    }
+
+  .content {
+        .welcome {
+            display: block;
+
+            .gown {
+                position: relative;
+                left: 20%;
+            }
+        }
+
+        .services {
+            display: block;
+
+            .icons {
+                position: relative;
+                left: 10px;
+            }
+        }
+
+        .quotation {
+            height: 100vh;
+        }
+
+        .events {
+            width: 20%;
+            margin-left: 42%;
+
+            .row1 {
+                position: relative;
+
+    
+                .glass-box1 {
+                    border-bottom: 2px solid orangered;
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    background: rgb(196, 194, 194);
+                    z-index: 4;
+                    top: 50px;
+                    right: 90%;
+                    padding: 10px;
+                    overflow: hidden;
+                }
+    
+                .glass-box2 {
+                    display: inline-block;
+                    background: orangered;
+                    position: relative;
+                    width: 30px;
+                    z-index: 5;
+                    bottom: 65.5%;
+                    //right: 15px;
+                    padding: 7px;
+                    left: 98%;
+                   // top: 20%
+                }
+    
+    
+            }
+    
+            .row2 {
+                grid-area: row2;
+                position: relative;
+    
+                .flower-box1 {
+                    border-bottom: 2px solid lime;
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    overflow: hidden;
+                    //color: aqua;
+                    background: rgb(196, 194, 194);
+                    z-index: 4;
+                    top: 30px;
+                    left: 85%;
+                    padding: 10px;
+    
+                    b {
+                        color: lime;
+                    }
+                }
+    
+                .flower-box2 {
+                    display: inline-block;
+                    background: orangered;
+                    position: relative;
+                    width: 30px;
+                    z-index: 5;
+                    left: -20px;
+                    top: -75%;
+                    padding: 7px;
+                }
+            }
+    
+            .row3 {
+                grid-area: row3;
+                padding-bottom: 40px;
+                position: relative;
+    
+                .couple-box1 {
+                    border-bottom: 2px solid orangered;
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    background: rgb(196, 194, 194);
+                    z-index: 4;
+                    top: 20px;
+                    right: 90%;
+                    padding: 10px;
+                    overflow: hidden;
+                }
+    
+                .couple-box2 {
+                    display: inline-block;
+                    background: orangered;
+                    position: relative;
+                    width: 30px;
+                    z-index: 5;
+                    top: -71.5%;
+                    left: 97%;
+                    padding: 7px;
+    
+                    .fab {
+                        padding: 5px 0;
+                        color: whitesmoke
+                    }
+                }
+            }
+        
+        }
+    }
+    
+
+
+}
+
+@include mediaBtw {
+    .heading {
+        width: 100%;
+
+        nav {
+            //font-size: 0.8em;
+
+            ul {
+                padding: 0;
+                margin: 0;
+                text-align-last: center;
+
+                .home {
+                    padding-left: 0;
+                    margin: 0;
+                }
+            }
+        }
+
+        .viva {
+
+            .read-more {
+                position: relative;
+                right: 40px;
+                
+
+            }
+
+            .read-more-text {
+                padding: 0;
+                margin: 0;
+                height: 200px;
+
+            }
+
+            .btn-read {
+                position: relative;
+                left:50%
+            }
+        }
+
+    }
+
+    .content {
+        .welcome {
+            
+
+            .gown {
+                position: relative;
+                height: 700px;
+            }
+
+            .adv-lists {
+             height: 700px;
+            }
+        }
+    }
+
+    .quotation {
+        height: 100vh;
+    }
+}
+
+//Tablets & Mini Laptops
+@include mediaMd {
+    body {
+        overflow-x: hidden;
+    }
+
+    .heading {
+        width: 100%;
+
+        nav {
+            //font-size: 0.8em;
+
+            ul {
+                padding: 0;
+                margin: 0;
+                text-align-last: center;
+
+                .home {
+                    padding-left: 0;
+                    margin: 0;
+                }
+            }
+        }
+
+        .viva {
+
+            .read-more {
+                position: relative;
+                right: 100px;
+                
+
+            }
+
+            .read-more-text {
+                padding: 0;
+                margin: 0;
+                height: 200px;
+
+            }
+
+            .btn-read {
+                position: relative;
+                left:57%
+            }
+        }
+
+    }
+
+    .content {
+        .welcome {
+            display: block;
+
+            .gown {
+                position: relative;
+                left: 10%;
+            }
+            
+        }
+
+        .services {
+            display: block;
+
+            .icons {
+                position: relative;
+                left: 10px;
+            }
+        }
+
+        .quotation {
+            height: 100vh;
+        }
+
+        .events {
+            width: 20%;
+            margin-left: 42%;
+
+            .row1 {
+                position: relative;
+
+    
+                .glass-box1 {
+                    border-bottom: 2px solid orangered;
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    background: rgb(196, 194, 194);
+                    z-index: 4;
+                    top: 50px;
+                    right: 90%;
+                    padding: 10px;
+                    overflow: hidden;
+                }
+    
+                .glass-box2 {
+                    display: inline-block;
+                    background: orangered;
+                    position: relative;
+                    width: 30px;
+                    z-index: 5;
+                    bottom: 65.5%;
+                    //right: 15px;
+                    padding: 7px;
+                    left: 98%;
+                   // top: 20%
+                }
+    
+    
+            }
+    
+            .row2 {
+                grid-area: row2;
+                position: relative;
+    
+                .flower-box1 {
+                    border-bottom: 2px solid lime;
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    overflow: hidden;
+                    //color: aqua;
+                    background: rgb(196, 194, 194);
+                    z-index: 4;
+                    top: 30px;
+                    left: 85%;
+                    padding: 10px;
+    
+                    b {
+                        color: lime;
+                    }
+                }
+    
+                .flower-box2 {
+                    display: inline-block;
+                    background: orangered;
+                    position: relative;
+                    width: 30px;
+                    z-index: 5;
+                    left: -20px;
+                    top: -75%;
+                    padding: 7px;
+                }
+            }
+    
+            .row3 {
+                grid-area: row3;
+                padding-bottom: 40px;
+                position: relative;
+    
+                .couple-box1 {
+                    border-bottom: 2px solid orangered;
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    background: rgb(196, 194, 194);
+                    z-index: 4;
+                    top: 20px;
+                    right: 90%;
+                    padding: 10px;
+                    overflow: hidden;
+                }
+    
+                .couple-box2 {
+                    display: inline-block;
+                    background: orangered;
+                    position: relative;
+                    width: 30px;
+                    z-index: 5;
+                    top: -71.5%;
+                    left: 97%;
+                    padding: 7px;
+    
+                    .fab {
+                        padding: 5px 0;
+                        color: whitesmoke
+                    }
+                }
+            }
+        
+        }
+    }
+
+    .foot-notes {
+        display: block;
+
+        .ft-top {
+            display: block;
+        }
+    }
+}
+   
+
+//Smartphones
+@include mediaSm { 
+    body {
+        overflow-x: hidden;
+    }   
+    .heading {
+        nav {
+            
+            ul {
+                padding: 0;
+                margin: 0;
+                height: 10px;
+                margin-bottom: 10px;
+
+                .home {
+                    margin-left: 0.2em;
+                }
+
+                .pages {
+                    margin-right: 0;
+
+                    #down {
+                        margin-right: 0;
+                    }
+                }
+
+                .contact {
+                    margin-left: 0;
+                    padding-left: 0;
+                }
+
+
+            }
+        }
+
+        .viva {
+
+
+            .brand-label {
+                font-size: 5vw;
+                text-align: center;
+                margin-left: 28px;
+                letter-spacing: 40px;
+                margin-bottom: 20px;
+            }
+
+            .read-more-text {
+                padding: 20px 0;
+                position: relative;
+                text-align: center;
+                left: 15rem;
+                height: 190px;
+                //right: 20%
+            }
+
+            .btn-read {
+                left: 70%;
+            }
+        }
+    }
+
+    .content {
+        display: block;
+
+        .welcome {
+            display: block;
+
+            .gown {
+                width: 300px;
+            }
+        }
+
+        .services {
+            display: block;
+
+            .icons {
+                left: 0;
+            }
+        }
+
+        .quotation {
+            display: block;
+            height: 100vh;
+        }
+
+        .events {
+            align-content: center;
+            position: relative;
+            left: 20px;
+
+            .events-text {
+                position: relative;
+                text-align: center;
+            }
+            
+            .event-images {
+                width: 300px
+            }
+
+            .glass-box1,
+            .glass-box2,
+            .flower-box1,
+            .flower-box2,
+            .couple-box1,
+            .couple-box2 {
+                visibility: hidden;
+            }
+
+        }
+    }
+
+    .foot-notes {
+        display: block;
+
+        .ft-top {
+            display: block;
+        }
+    }
+}

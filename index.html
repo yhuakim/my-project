@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Cookie|Dancing+Script|Great+Vibes|Satisfy|ZCOOL+XiaoWei" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/scss/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Project1</title>
+</head>
+<body>
+    <header class="heading">
+        <h1 class="brand-name">
+            Venue
+        </h1>
+        <nav class="navigations">
+            <ul>
+                <li class="nav-items home">
+                        <a href="/" class="nav-links">
+                            Home
+                        </a>
+                </li>
+                <li class="nav-items">
+                        <a href="./pages/about.html" class="nav-links">
+                            About
+                        </a>
+                </li>
+                <li class="nav-items">
+                        <a href="./pages/gallery.html" class="nav-links">
+                            Gallery
+                        </a>
+                </li>
+                <li class="nav-items pages">
+                        <a href="/" class="nav-links" id="pages" >
+                            Pages
+                            <span id="caret" onclick="toggleCaret()"> 
+                                <i class="fas fa-caret-down" id="down" >
+                                </i>
+                                <i class="fas fa-caret-up" id="up" 
+                                style="position:relative; right:20%; visibility: hidden">
+                            </i>
+                        </span> 
+                           
+                        </a>
+                            <div class="drop"
+                             style="position:absolute; right: 42%; visibility: hidden;">
+                                <ul 
+                                    style="list-style:none; display: inline-block; width: 200px;">
+                                    <li class="drop-item" 
+                                    style="padding: 5px">
+                                    <a href="./pages/icons.html" class="drp-link"> Icons </a>
+                                </li>
+                                <li class="drop-item" 
+                                style="padding: 5px"> 
+                                <a href="./pages/short-codes.html" class="drp-link"> Short Codes </a>  
+                                </li>
+                                </ul>
+                            </div>
+                        
+                </li>
+                <li class="nav-items contact">
+                        <a href="/pages/contact.html" class="nav-links">
+                            Contacts
+                        </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    <div class="viva">
+        <h1 class="brand-label">
+            VIVAMUS
+        </h1>
+        <div class="read-more">
+            <p class="read-more-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maiores cumque in nesciunt optio vero, temporibus dolores praesentium, deserunt, doloremque ex perspiciatis cupiditate velit accusantium porro quia sed reiciendis maxime!
+            </p>
+            <button class="btn-read">
+                READ MORE
+            </button>
+        </div>
+</div>    
+    </header>
+
+    <main class="content">
+        <div class="welcome">
+            <h1 class="welcome-text"> Welcome </h1>
+            <img class="gown" src="./styles/images/4.jpg" alt="A white gown">
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum error quia tempore amet, aspernatur magnam provident quasi rem esse id inventore quam veritatis veniam perspiciatis repudiandae consectetur aut nam qui.</p>
+            <div class="adv-lists">
+                <h1>OUR ADVANTAGES</h1>
+                <ul>
+                    <li> <i class="fas fa-angle-right"></i> lorem ipsum </li>
+                    <li> <i class="fas fa-angle-right"></i> lorem ipsum </li>
+                    <li> <i class="fas fa-angle-right"></i> lorem ipsum </li>
+                    <li> <i class="fas fa-angle-right"></i> lorem ipsum </li>
+                    <li> <i class="fas fa-angle-right"></i> lorem ipsum </li>
+                    <li> <i class="fas fa-angle-right"></i> lorem ipsum </li>
+                </ul>
+            </div>
+        </div>
+        <div class="services">
+            <h1 class="services-text"> Services </h1>
+            <div class="icons">
+                <i class="fas fa-gift fa-2x"></i>
+                <i class="fas fa-glass-martini fa-2x"></i>
+                <i class="fas fa-user fa-2x"></i>
+                <i class="fas fa-heart fa-2x"></i>
+                 <i class="fas fa-anchor fa-2x"></i>
+                <i class="fas fa-cog fa-2x"></i>
+            </div>
+            <div class="serv-texts">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint, nam suscipit incidunt aspernatur necessitatibus, quaerat, accusamus nihil blanditiis nobis velit culpa officia explicabo dicta facere. Voluptate exercitationem rem perspiciatis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint, nam suscipit incidunt aspernatur necessitatibus, quaerat, accusamus nihil blanditiis nobis velit culpa officia explicabo dicta facere. Voluptate exercitationem rem perspiciatis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi sint, nam suscipit incidunt aspernatur necessitatibus, quaerat, accusamus nihil blanditiis nobis velit culpa officia explicabo dicta facere. Voluptate exercitationem rem perspiciatis?</p>
+            </div>
+        </div>
+        <div class="quotation">
+            <i class="fas fa-quote-right fa-2x"></i>
+            <p class="quote">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quasi commodi molestiae excepturi quisquam suscipit labore maxime sequi nam. In pariatur numquam reiciendis. Repellendus, commodi veritatis explicabo illo alias officiis!
+            </p>
+        </div>
+        <div class="events">
+            <h1 class="events-text"> Events </h1>
+            <div class="row1">
+                <span class="glass-box1">
+                    <b class="one"> 01 </b> <b class="date"> 12/2018 </b>
+                    <h1> lorem ipsum </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur,
+                       debitis adipisci voluptate deserunt numquam eum.
+                    </p>
+                </span>
+                <img src="./styles/images/2.jpg" class="event-images glass" alt="wine glass">
+                <span class="glass-box2">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-github"></i>
+                </span>
+            </div>
+            <div class="row2">
+                <span class="flower-box1">
+                        <b class="one"> 01 </b> <b class="date"> 12/2018 </b>
+                        <h1> lorem ipsum </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Beatae architecto sit quis vero recusandae illo necessitatibus
+                        </p>
+                </span>
+                <img src="./styles/images/3.jpg" class="event-images flower" alt="flower">
+                <span class="flower-box2">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus"></i>
+                        <i class="fab fa-github"></i>
+                </span>
+            </div>
+            <div class="row3">
+                    <span class="couple-box1">
+                            <b class="one"> 01 </b> <b class="date"> 12/2018 </b>
+                            <h1> lorem ipsum </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Beatae architecto sit quis vero recusandae illo necessitatibus
+                            </p>
+                    </span>
+                    <img src="./styles/images/6.jpg" class="event-images couple" alt="couple">
+                    <span class="couple-box2">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-google-plus"></i>
+                            <i class="fab fa-github"></i>
+                    </span>
+            </div>
+        </div>
+    </main>
+
+    <footer class="foot-notes">
+        <div class="ft-top">
+        <div class="social-icons">
+            <h1 class="logo"> Venue </h1>
+            <div class="font-awe">
+                <i class="fab fa-facebook-f fa-1x">
+                    <a href="#" class="icon-link"></a>
+                </i>
+                <i class="fab fa-twitter fa-1x">
+                    <a href="#" class="icon-link"></a>
+                </i>
+                <i class="fas fa-rss fa-1x">
+                    <a href="#" class="icon-link"></a>
+                </i>
+                <i class="fab fa-vk fa-1x">
+                    <a href="#" class="icon-link"></a>
+                </i>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h1 class="info-text"> <span class="con">CONTACT</span> INFO </h1>
+            <h1 class="call"> Call Us </h1>
+            <p class="phone"> +2348142901998 </p>
+            <h1 class="address">
+                lorem ipsum
+            </h1>
+        </div>
+        <div class="ft-nav">
+            <h1 class="shortcuts">
+                <span class="na">NAVI</span>GATIONS
+            </h1>
+            <ul>
+                <li class="about">
+                    <a href="/pages/about.html" class="about-link">
+                        <i class="fas fa-angle-right" style="margin-right: 5px; color: rgb(214, 214, 214);"></i>
+                        About
+                    </a>
+                </li>
+                <li class="gallery">
+                    <a href="/pages/gallery.html" class="gallery-link">
+                            <i class="fas fa-angle-right" style="margin-right: 5px; color: rgb(214, 214, 214);"></i>
+                        Gallery
+                    </a>
+                </li>
+                <li class="icons" >
+                    <a href="./pages/icons.html" class="icon-link">
+                            <i class="fas fa-angle-right" style="margin-right: 5px; color: rgb(214, 214, 214);"></i>
+                        Icons
+                    </a>
+                </li>
+                <li class="short-codes">
+                    <a href="./pages/short-codes.html" class="codes-link">
+                            <i class="fas fa-angle-right" style="margin-right: 5px; color: rgb(214, 214, 214);"></i>
+                        Short Codes
+                    </a>
+                </li>
+                <li class="contact">
+                    <a href="/pages/contact.html" class="contacts-link">
+                        <i class="fas fa-angle-right" style="margin-right: 5px; color: rgb(214, 214, 214);"  ></i>
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="recent-posts">
+            <h1 class="posts">
+                <span class="re">RECENT</span> POSTS
+            </h1>
+            <div class="post-images">
+                <img src="./styles/images/6.jpg" alt="posts" class="images">
+                <img src="./styles/images/2.jpg" alt="posts" class="images">
+                <img src="./styles/images/7.jpg" alt="posts" class="images">
+                <img src="./styles/images/3.jpg" alt="posts" class="images">
+            </div>
+        </div>
+    </div>
+        <div class="ft-bottom">
+          &copy; <span class="rights">2019 Venue. All rights reserved<span style="text-decoration:none; font-weight: 100;"> | </span>Desinged by </span><span class="designer">Yhuakim</span>
+          </i>       
+          </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

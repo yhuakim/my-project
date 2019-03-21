@@ -1,0 +1,157 @@
+
+.foot-notes {
+    display: grid;
+    grid-template-areas: 
+        "top top top top"
+        "top top top top"
+        "bottom bottom bottom bottom";
+        background-color: rgb(20, 20, 20);
+        color: whitesmoke;
+    .ft-top {
+        display: grid;
+        grid-area: top;
+        grid-template-areas: 
+            "icons contact nav posts"
+            "icons contact nav posts"
+            "icons contact nav posts"
+            "icons contact nav posts";
+        margin: 0 10%;
+
+        .social-icons {
+            grid-area: icons;
+            padding: 10px;
+            display: inline-block;
+            //margin-left: 35%;
+
+
+            .font-awe {
+                margin-left: 20px;
+            }
+
+            .fab, .fas {
+                padding: 10px;
+                color: rgb(182, 182, 182);
+                font-size: 15px;
+            }
+
+            .logo {
+                font-family: 'Great Vibes', cursive;
+                font-size: 40px;
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+        }
+
+        .contact-info {
+            grid-area: contact;
+            padding: 20px;
+
+            .call {
+                font-weight: 300;
+                font-family: 'Assistant', sans-serif;
+                font-size: 15px;
+                margin-bottom: 5px;
+                color: gray
+            }
+
+            .address {
+            font-weight: 300;
+            font-family: 'Assistant', sans-serif;
+            font-size: 20px;
+            margin-top: 10px;
+            color: gray;
+            }
+
+            .info-text {
+                font-weight: 300;
+                font-family: cursive, sans-serif;
+                font-size: 15px;
+                margin-bottom: 20px;
+
+                .con {
+                    padding: 2px 0;
+                    border-bottom: 2px solid orangered;
+                }
+                //border-bottom: 1px solid orangered;
+            }
+        }
+
+        .ft-nav {
+            grid-area: nav;
+            padding: 20px;
+
+            ul {
+                list-style: none;
+                padding-top: 20px;
+                font-family: cursive;
+                font-size: 15px;
+
+                li {
+                    margin-bottom: 5px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(214, 214, 214);
+                }
+            }
+            .shortcuts {
+                font-weight: 300;
+                font-family: cursive, sans-serif;
+                font-size: 15px;
+                padding: 4px 0;
+               // border-bottom: 1px solid orangered;
+
+               .na {
+                   padding: 2px 0;
+                    border-bottom: 2px solid orangered;
+               }
+                
+            }
+        }
+
+        .recent-posts {
+            grid-area: posts;
+            padding: 20px;
+
+            .post-images {
+                display: grid;
+                grid-template-columns: 100px 100px;
+                padding-top: 20px;
+                
+                .images {
+                    max-width: 100%;
+                }
+            }
+
+            .posts {
+                font-weight: 300;
+                font-family: cursive, sans-serif;
+                font-size: 15px;
+                padding: 4px 0;
+                //max-width: 100%;
+
+                .re {
+                    padding: 2px 0;
+                    border-bottom: 2px solid orangered;
+                }
+               
+            }
+        }
+    }
+
+    .ft-bottom {
+        background: black;
+        grid-area: bottom;
+        padding: 20px 40px;
+        text-align: center;
+        font-weight: 300;
+        font-family: cursive, sans-serif;
+        font-size: 15px;
+
+        .designer {
+            color: orangered;
+        }
+        
+    }
+}

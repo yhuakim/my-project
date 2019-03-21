@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+
+    <style>
+
+        header {
+            background: url(../styles/images/mine.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-blend-mode: color-burn;
+            width: 100%;
+            height: 10vh;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            padding-top: 10px;
+            margin: 0;
+            text-align: center;
+            color: orangered;
+            font-family: cursive;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+            grid-template-areas: 
+            "call github twitter"
+            "whatsapp whatsapp whatsapp"
+            "discord discord discord";
+        }
+        
+        .fa-phone {
+            grid-area: call;
+        }
+        .fa-github {
+            grid-area: github;
+        }
+        .fa-twitter {
+            grid-area: twitter;
+        }
+        .fa-whatsapp {
+            grid-area: whatsapp;
+        }
+        .fa-discord {
+            grid-area: discord;
+        }
+
+         footer {
+            height: 5vh;
+            width: 100%;
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 10px;
+            font-family: cursive;
+        }
+        .designer {
+            color: orangered;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>
+            My Contact Info
+        </h1>
+    </header>
+    <main>
+        <p>
+            <i class="fas fa-phone"> Call </i> +2348142901998
+        </p>
+        <p>
+            <i class="fab fa-github"> Github </i> 
+        </p>
+        <p>
+            <i class="fab fa-twitter"> Twitter </i> Follow me 
+        </p>
+        <p>
+            <i class="fab fa-whatsapp"> Whatsapp </i> +2348089274615
+        </p>
+        <p>
+            <i class="fab fa-discord"> Discord </i> 
+        </p>
+    </main>
+
+    <footer class="ft-bottom">
+            &copy; <span class="rights">2019 Venue. All rights reserved<span style="text-decoration:none; font-weight: 100;"> | </span>Desinged by </span><span class="designer">Yhuakim</span>
+        </i>       
+    </footer>
+</body>
+</html>

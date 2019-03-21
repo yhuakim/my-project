@@ -1,0 +1,14 @@
+@import '_main';
+@import '_header';
+@import '_footer';
+@import '_config';
+@import '_mobile';
+
+* {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
